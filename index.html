@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Website | Maryam Tutorials</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+</head>
+<body style="background-color: black; color: #fff;">
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a  class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Burgers</a></li>
+                  <li><a class="dropdown-item" href="#">Fries</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Pizza</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-danger" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid d-flex mt-5">
+        <div class="text mt-5" style="margin-left: 5px;">
+            <h1>Welcome to Burger Hut 🍔 </h1>
+            <p> Your ultimate destination for mouthwatering burgers and delightful dining experiences! At Burger Hut, we believe that every burger should be a masterpiece, crafted with the freshest ingredients and a passion for perfection. Our diverse menu features a variety of gourmet burgers, each one bursting with flavor and made to order just for you. Whether you're craving a classic cheeseburger 🧀, a spicy specialty 🌶️, or a vegetarian delight 🥬, we've got something to satisfy every palate. Join us for a cozy meal with friends and family, or grab a quick, delicious bite on the go 🚀. At Burger Hut, great taste meets great times. Come on in and taste the difference! 😋🎉</p>
+        </div>
+
+        <div class="main-img">
+            <img src="imgs/burger1.jpg">
+        </div>
+      </div>
+
+
+
+    <div class="sec2 container-fluid d-flex mt-5">
+        <div class="aboutImg mb-5">
+            <img src="imgs/burger2.avif" width="500px" height="400px">
+        </div>
+
+        <div class="text mt-5">
+            <h2>About Us</h2>
+            <p>At Burger Hut 🍔, we’re more than just a burger joint—we’re a community favorite for delicious meals and unforgettable moments. Founded on the belief that great food brings people together, we’ve been serving up mouthwatering burgers made from the freshest ingredients since day one. Our passion for quality and flavor drives us to constantly innovate, offering a diverse menu that caters to all tastes, from classic cheeseburgers 🧀 to spicy specialties 🌶️ and vegetarian delights 🥗. Whether you’re dining in with friends and family or grabbing a quick bite on the go 🚀, we’re here to ensure every visit is a delightful experience. Join us at Burger Hut, where every bite is a celebration of great taste and good times! 😋</p>
+        </div>
+    </div>
+
+
+    <div class="menu  d-flex justify-content-center">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card" data-aos="fade-left">
+                    <img src="imgs/burger3.avif" class="card-img-top" alt="Classic Cheeseburger">
+                    <div class="card-body">
+                        <h5 class="card-title">Classic Cheeseburger</h5>
+                        <p class="card-text">A timeless favorite with a juicy, melted cheddar cheese, fresh lettuce, tomato, and our special house sauce. Perfect for any burger lover.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" data-aos="fade-right">
+                    <img src="imgs/burgers.jpg" class="card-img-top" alt="Spicy Jalapeño Burger" >
+                    <div class="card-body">
+                        <h5 class="card-title">Spicy Jalapeño Burger</h5>
+                        <p class="card-text">Turn up the heat with our Spicy Jalapeño Burger. Topped with pepper jack cheese, jalapeños, and a zesty chipotle mayo, it’s sure to spice up your meal.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" data-aos="fade-left">
+                    <img src="imgs/fastfood.jpg"  class="card-img-top" alt="BBQ Bacon Burger" data-aos="fade-right">
+                    <div class="card-body">
+                        <h5 class="card-title">BBQ Bacon Burger</h5>
+                        <p class="card-text">Savor the smoky flavors of our BBQ Bacon Burger. Featuring crispy bacon, tangy barbecue sauce, onion rings, and cheddar cheese, it's a crowd-pleaser.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" data-aos="fade-right">
+                    <img src="imgs/burger2.avif" class="card-img-top" alt="Veggie Delight Burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Veggie Delight Burger</h5>
+                        <p class="card-text">Our Veggie Delight Burger is a garden-fresh option with a flavorful veggie patty, avocado, sprouts, and a creamy herb sauce. A healthy choice without compromise.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contactForm justify-content-center">
+        <div class="container">
+            <div class="heading">
+                <h2>Contact Us</h2>
+            </div>
+
+            <div class="inputFields">
+                <div class="name">
+                    <input type="text" placeholder="First Name" class="p-2">
+                    <input type="text" placeholder="Last Name" class="p-2">
+                </div>
+                <div class="info">
+                    <input type="text" placeholder="Country/Region" class="p-2">
+                <input type="text" placeholder="Phone Number#" class="p-2">
+                </div>
+
+                <div class="btnSubmit">
+                    <button>SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>&copy; Made by Maryam Zohra 😊 
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

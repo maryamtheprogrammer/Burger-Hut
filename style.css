@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: rgb(168, 29, 29);
+    color: #fff;
+}
+
+.menu {
+    height: 100%;
+    width: 100%;
+    justify-content: space-between !important;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid red;
+    margin: 20px;
+    width: 100%;
+    max-width: 350px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 470px) ,
+ (max-width: 400px) {
+
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-fluid .main-img > img{
+        height: 290px;
+        width: 380px;
+    }
+
+    .sec2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .row-cols-md-2 > .col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .card {
+        margin: 20px auto;
+    }
+}
+
+/* width*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+} 
+
+/* Handle */
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+} 
+
+/* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} 
+
+.contactForm{
+    position: relative;
+    left: -1em;
+    text-align: center;
+    align-items: center;
+}
+
+.inputFields{
+    margin: 30px;
+    width: 100%;
+    height: 100px;
+}
+
+.name{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 6px;
+}
+
+.inputFields .name > input{
+    height: 50px;
+    width: 30%;
+    border: 2px solid red;
+    background-color: #272727;
+    color: #fff;
+
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputFields .info > input{
+    height: 50px;
+    width: 30%;
+    border: 2px solid red;
+    background-color: #272727;
+    color: #fff;
+
+}
+
+.btnSubmit > button{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 50px;
+    color: black;
+    padding: 10px;
+    width: 100px;
+    margin-top: 8px;
+    font-weight: 700;
+}
+
+.btnSubmit > button:hover{
+    background-color: black;
+    border: 2px solid red;
+    color: red;
+    transition: 0.5s ease;
+}
+
+footer{
+    margin-top: 100px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #0e0d0d;
+    font-family: monospace;
+}
+
